@@ -1,0 +1,49 @@
+"""
+# -----------------------------------------------
+# File        : Modules_1_easy.py
+# Created:    : 11-10-2021 15:26
+# Author      : Chetan Raga
+# Version     : v1.0.0
+# Licencing   : (c) 2021 Chetan raga,LYIT
+               AvaiLable under GNU Public License (GPL)
+# Description :
+   
+#------------------------------------------------
+"""
+
+if __name__ == "__main__":
+    '''
+
+   Main method of application 
+
+
+
+   Linear programming only presented here wrt demo of lists
+
+
+
+   Parameters:
+
+    none
+
+
+
+   Returns:
+
+    none
+
+  '''
+    import platform
+    import os, sys
+
+
+    
+    my_system = platform.uname()
+
+    print(f"System: {my_system.system}")
+    print(f"Node Name: {my_system.node}")
+    print(f"Release: {my_system.release}")
+    print(f"Version: {my_system.version}")
+    print(f"Machine: {my_system.machine}")
+    print(f"Processor: {my_system.processor}")
+    print(f"Path: {sys.path}")
